@@ -1,0 +1,96 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9fbe7;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffeb3b;
+    color: #333;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+}
+
+.logo-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #ff9800;
+}
+
+.director {
+    text-align: center;
+    padding: 20px;
+    background-color: #c8e6c9;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.director-photo {
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 5px solid #4caf50;
+}
+
+.director h2 {
+    margin: 10px 0;
+    color: #4caf50;
+}
+
+.message {
+    padding: 20px;
+    background-color: #ffccbc;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.message h2 {
+    color: #e64a19;
+}
+
+.countdown {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffc107;
+    color: #ffffff;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.countdown h2 {
+    color: #e65100;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #004d40;
+    color: #ffffff;
+    border-radius: 0 0 10px 10px;
+}
