@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gift from Farhan Afzal</title>
+<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<style>
+    .highlight {
+        color: #ff6600; /* Orange color */
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+    .gift-line {
+        font-style: italic;
+        color: #3366ff; /* Blue color */
+    }
+    .confetti {
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        background-color: #ffcc00;
+        opacity: 0.8;
+        animation: confetti 5s linear infinite;
+    }
+    @keyframes confetti {
+        0% {
+            transform: translateY(0) rotate(0deg);
+        }
+        100% {
+            transform: translateY(100vh) rotate(720deg);
+        }
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>Gift from Farhan Afzal</h1>
+        <p class="highlight">With <span class="gratitude">heartfelt gratitude</span> to Director Sir Umair Azmat Warraich for his unwavering guidance and to Elixir High School for shaping my journey</p>
+        <img src="n.jpg" alt="Farhan Afzal" id="profileImage">
+    </header>
+    <main>
+        <p class="gift-line"><b>In celebration of Elixir High School's 14th anniversary, I present this heartfelt tribute to Director Sir Umair Azmat Warraich and the entire Elixir community</b></p>
+        <a href="ehs.html"><button id="viewGiftBtn">View Gift</button></a>
+        <div class="bio">
+            <h2>About Farhan Afzal</h2>
+            <p><strong>
+                <span>Alumnus of Elixir High Schools</span><br>
+                <span>Batch: 2019-2022</span><br>
+                <span>Currently pursuing a BSCS degree at Air University, Islamabad.</span><br>
+                <span>I proudly passed my matriculation at Elixir High Schools, where I studied for 10 transformative years. The invaluable guidance of my director, Sir Umair Azmat Warraich, and my dedicated teachers played a crucial role in my personal and academic development, shaping my future.</span>
+            </strong></p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Farhan Afzal</p>
+    </footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
